@@ -22,7 +22,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="삭 제"
+        android:text="Delete"
         android:id="@+id/button"
         android:layout_marginRight="41dp"
         android:layout_marginEnd="41dp"
@@ -33,7 +33,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="저 장"
+        android:text="Save"
         android:id="@+id/button2"
         android:layout_marginLeft="42dp"
         android:layout_marginStart="42dp"
