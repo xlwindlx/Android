@@ -7,13 +7,17 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ImageButton button =(ImageButton)findViewById(R.id.imageButton);
-        Intent intent = new Intent(this,StartActivity.class);
-        button.setOnClickListener();
+        setContentView(R.layout.intro);
+        ImageButton button =(ImageButton)findViewById(R.id.imageButton2);
+        button.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(),StartActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

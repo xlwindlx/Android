@@ -11,18 +11,18 @@
 
 
     <ImageView
-        android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/imageView6"
-        android:src="@drawable/color"
-        android:layout_above="@+id/button"
+        android:src="@drawable/conan"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delete"
+        android:text="삭 제"
         android:id="@+id/button"
         android:layout_marginRight="41dp"
         android:layout_marginEnd="41dp"
@@ -33,7 +33,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
+        android:text="저 장"
         android:id="@+id/button2"
         android:layout_marginLeft="42dp"
         android:layout_marginStart="42dp"

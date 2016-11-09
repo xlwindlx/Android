@@ -27,7 +27,7 @@
         android:layout_alignTop="@+id/surfaceView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/Bluetooth"
+        android:src="@drawable/blue"
         android:layout_centerVertical="true" />
 
     <ImageView
@@ -66,5 +66,22 @@
         android:layout_alignTop="@+id/imageView4"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView10"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:src="@drawable/signal04" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/cap"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
 
 </RelativeLayout>
