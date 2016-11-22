@@ -15,9 +15,6 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-/**
- * Created by Renya on 2016-11-01.
- */
 public class StartActivity extends AppCompatActivity {
 
     private final String[] navItems = {"이미지 보기", "동영상 보기"};
