@@ -1,17 +1,21 @@
 package com.example.renya.myapplication_ui;
 
+import android.Manifest;
+import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Handler;
+import android.content.pm.PackageManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.TextureView;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.InputStream;
@@ -37,6 +41,16 @@ public class MainActivity extends AppCompatActivity {
     byte[] readBuffer;
     int readBufferPosition;
 
+    // 카메라 프리뷰
+    private TextureView mCameraTextureView;
+    private Preview mPreview;
+
+    Activity mainActivity = this;
+
+    private static final String TAG = "MAINACTIVITY";
+
+    static final int REQUEST_CAMERA = 1;
+    //
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +64,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // 카메라 프리뷰
+        mCameraTextureView = (TextureView) findViewById(R.id.cameraTextureView);
+        mPreview = new Preview(this, mCameraTextureView);
     }
+
     BluetoothDevice getDeviceFromBondedList(String name) {
         // BluetoothDevice : 페어링 된 기기 목록을 얻어옴.
         BluetoothDevice selectedDevice = null;
@@ -190,5 +209,41 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case REQUEST_CAMERA:
+                for (int i = 0; i < permissions.length; i++) {
+                    String permission = permissions[i];
+                    int grantResult = grantResults[i];
+                    if (permission.equals(Manifest.permission.CAMERA)) {
+                        if(grantResult == PackageManager.PERMISSION_GRANTED) {
+                            mCameraTextureView = (TextureView) findViewById(R.id.cameraTextureView);
+                            mPreview = new Preview(mainActivity, mCameraTextureView);
+                            mPreview.openCamera();
+                            Log.d(TAG,"mPreview set");
+                        } else {
+                            Toast.makeText(this,"Should have camera permission to run", Toast.LENGTH_LONG).show();
+                            finish();
+                        }
+                    }
+                }
+                break;
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mPreview.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mPreview.onPause();
     }
 }
