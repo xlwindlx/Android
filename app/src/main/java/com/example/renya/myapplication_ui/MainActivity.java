@@ -5,6 +5,7 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
     BluetoothSocket mSocket = null;
     OutputStream mOutputStream = null;
     InputStream mInputStream = null;
+
+    Thread mWorkerThread = null;
+    byte[] readBuffer;
+    int readBufferPosition;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -160,13 +167,13 @@ public class MainActivity extends AppCompatActivity {
             mInputStream = mSocket.getInputStream();
 
             // 데이터 수신 준비.
-            //beginListenForData();
 
         }catch(Exception e) { // 블루투스 연결 중 오류 발생
             Toast.makeText(getApplicationContext(), "블루투스 연결 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
             finish();  // App 종료
         }
     }
+    
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
