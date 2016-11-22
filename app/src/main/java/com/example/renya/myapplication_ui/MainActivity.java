@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
             finish();  // App 종료
         }
     }
-    
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
