@@ -15,7 +15,6 @@ import android.util.Log;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.InputStream;

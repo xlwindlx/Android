@@ -80,16 +80,14 @@ public class Preview extends Thread {
     private TextureView.SurfaceTextureListener mSurfaceTextureListener = new TextureView.SurfaceTextureListener(){
 
         @Override
-        public void onSurfaceTextureAvailable(SurfaceTexture surface,
-                                              int width, int height) {
+        public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
             // TODO Auto-generated method stub
             Log.e(TAG, "onSurfaceTextureAvailable, width="+width+",height="+height);
             openCamera();
         }
 
         @Override
-        public void onSurfaceTextureSizeChanged(SurfaceTexture surface,
-                                                int width, int height) {
+        public void onSurfaceTextureSizeChanged(SurfaceTexture surface, int width, int height) {
             // TODO Auto-generated method stub
             Log.e(TAG, "onSurfaceTextureSizeChanged");
         }
