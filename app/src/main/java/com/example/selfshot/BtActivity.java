@@ -29,7 +29,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Calendar;
@@ -408,6 +407,7 @@ public class BtActivity extends Activity {
                 // construct a string from the valid bytes in the buffer
                 String readMessage = new String(readBuf, 0, msg.arg1);
 				Toast.makeText(getApplicationContext(), "사람이 있어요", Toast.LENGTH_LONG).show();
+                //mConversationArrayAdapter.add(mConnectedDeviceName+":  " + readMessage);
 
 				// 진동
 				Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
@@ -424,7 +424,7 @@ public class BtActivity extends Activity {
 				MakeCache(mInPhoto, "selfshot"+year +month+day+hour+minute);
 
 
-				//mConversationArrayAdapter.add(mConnectedDeviceName+":  " + readMessage);
+
                 break;
             case MESSAGE_DEVICE_NAME:
                 // save the connected device's name
@@ -439,6 +439,8 @@ public class BtActivity extends Activity {
             }
         }
     };
+
+
 
 	static public void MakeCache(View v,String filename){
 
@@ -461,6 +463,8 @@ public class BtActivity extends Activity {
 		}
 	}
 
+
+    
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(D) Log.d(TAG, "onActivityResult " + resultCode);
         switch (requestCode) {

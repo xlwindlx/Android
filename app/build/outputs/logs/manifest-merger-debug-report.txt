@@ -1,123 +1,123 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
 	android:targetSdkVersion
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:10:9-38
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:9:9-35
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:11:5-64
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:10:5-64
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:11:22-62
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:10:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:12:5-81
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:13:22-77
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:12:22-77
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:14:5-74
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:13:5-74
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:14:22-71
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:13:22-71
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:15:2-65
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:14:2-65
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:15:19-62
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:14:19-62
 uses-feature#android.hardware.camera
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:16:2-56
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:15:2-56
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:16:16-54
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:15:16-54
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:17:2-66
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:16:2-66
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:17:16-64
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:16:16-64
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:18:5-65
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:17:5-65
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:18:22-63
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:17:22-63
 application
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:20:5-58:19
-MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:19:5-57:19
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
 	android:label
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:22:9-41
 	android:allowBackup
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:22:9-47
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:21:9-47
 	android:theme
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:23:9-40
 activity#com.example.selfshot.MainActivity
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:25:9-35:20
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:24:9-34:20
 	android:screenOrientation
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:27:13-50
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:26:13-50
 	android:label
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:27:13-45
 	android:theme
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:29:13-71
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:28:13-71
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:26:13-61
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:25:13-61
 activity#com.example.selfshot.IntroActivity
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:37:9-43:20
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:36:9-42:20
 	android:label
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:37:48-80
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:36:48-80
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:37:19-47
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:36:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.example.selfshot.DeviceListActivity
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:45:9-49:61
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:44:9-48:61
 	android:label
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:47:8-45
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:46:8-45
 	android:configChanges
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:49:8-58
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:48:8-58
 	android:theme
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:48:8-51
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:47:8-51
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:46:8-62
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:45:8-62
 activity#com.example.selfshot.DeviceListActivity2
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:51:9-55:61
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:50:9-54:61
 	android:label
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:53:8-45
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:52:8-45
 	android:configChanges
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:55:8-58
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:54:8-58
 	android:theme
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:54:8-51
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:53:8-51
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:52:8-63
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:51:8-63
 activity#com.example.selfshot.BtActivity
-ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:57:9-102
+ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:56:9-102
 	android:label
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:57:66-90
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:56:66-90
 	android:name
-		ADDED from C:\Users\xlwindlx\Documents\AndroidStudioProjects\UI\app\src\main\AndroidManifest.xml:57:19-65
+		ADDED from C:\Users\Renya\Desktop\SelfShot1\app\src\main\AndroidManifest.xml:56:19-65

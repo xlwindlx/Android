@@ -56,8 +56,15 @@
 			            android:layout_height="wrap_content"
 			            android:layout_margin="10dp"
 			            android:background="@drawable/zoom_in_selector" />
-
-					<ImageButton
+	                
+	                <ImageButton
+			            android:id="@+id/camerashutterbtn"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="10dp"
+			            android:background="@drawable/shutter_selector"/>
+	                
+	                <ImageButton
 			            android:id="@+id/img_zoomminus_btn"
 			            android:layout_width="wrap_content"
 			            android:layout_height="wrap_content"

@@ -1,17 +1,8 @@
 <resources>
 
-<<<<<<< HEAD
     <!-- Application theme. -->
     <style name="AppTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-=======
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
->>>>>>> 5626ddc0f2288504a9756b270f4f1a931922619a
     </style>
 
 </resources>

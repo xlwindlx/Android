@@ -8,34 +8,34 @@
         optimize="true"
         revision="24.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_c76ba1ca347dda32045a8620ce8b3264c225aeef\classes.dex" />
+        <dex dex="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_c76ba1ca347dda32045a8620ce8b3264c225aeef\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="82d556097f405ce79141cee515b22e7bce43cf1f">
-        <dex dex="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_35752a63907a880f8f8bc483143850aa699a441c\classes.dex" />
+        sha1="04e8f3c4df0b2d4aef3a7bce940df5a632a72f57">
+        <dex dex="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f4fc02aeef5f271337c8417486ff5481377546d3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="9bfd6b228099ad01db393000adbfe24fd525702e">
-        <dex dex="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f3e824d30040ab352f624e36565d801384ec1fc9\classes.dex" />
+        sha1="73933749a329e2f92c453fb05c1f2721f0112f1d">
+        <dex dex="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1da23d8c60156d146db7b1e3cd49de0bb900d5da\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jar="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="C:\Users\Renya\Desktop\SelfShot2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-19.1.0_652c132ac6180c714bdb62a0361060d702d05953\classes.dex" />
+        <dex dex="C:\Users\Renya\Desktop\SelfShot1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-19.1.0_835cba69b48481f0db0ab6661ab51616334abf14\classes.dex" />
     </item>
 
 </items>

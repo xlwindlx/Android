@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -57,8 +56,15 @@
 			            android:layout_height="wrap_content"
 			            android:layout_margin="10dp"
 			            android:background="@drawable/zoom_in_selector" />
-
-					<ImageButton
+	                
+	                <ImageButton
+			            android:id="@+id/camerashutterbtn"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="10dp"
+			            android:background="@drawable/shutter_selector"/>
+	                
+	                <ImageButton
 			            android:id="@+id/img_zoomminus_btn"
 			            android:layout_width="wrap_content"
 			            android:layout_height="wrap_content"
@@ -108,84 +114,3 @@
 	    
 </LinearLayout> 
 
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.renya.myapplication_ui.MainActivity">
-
-    <TextureView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/cameraTextureView" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageView4"
-        android:src="@drawable/pl"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/imageView2"
-        android:layout_toStartOf="@+id/imageView2" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageView5"
-        android:src="@drawable/mi"
-        android:layout_alignTop="@+id/imageView4"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:id="@+id/imageView10"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_toRightOf="@+id/imageView"
-        android:src="@drawable/signal04" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageView11"
-        android:src="@drawable/cap"
-        android:layout_alignTop="@+id/imageView4"
-        android:layout_alignRight="@+id/imageView3"
-        android:layout_alignEnd="@+id/imageView3" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageView"
-        android:src="@drawable/blue"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageView2"
-        android:src="@drawable/bulbone"
-        android:layout_above="@+id/imageView4"
-        android:layout_alignLeft="@+id/imageView11"
-        android:layout_alignStart="@+id/imageView11" />
-
-    <ImageView
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:id="@+id/imageView3"
-        android:src="@drawable/bulbtwo"
-        android:layout_below="@+id/imageView5"
-        android:layout_toLeftOf="@+id/imageView5"
-        android:layout_toStartOf="@+id/imageView5" />
-
-</RelativeLayout>
->>>>>>> 5626ddc0f2288504a9756b270f4f1a931922619a

@@ -1,18 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\xlwindlx\\Documents\\AndroidStudioProjects\\UI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\backgronud1.jpg",
-        "source": "C:\\Users\\xlwindlx\\Documents\\AndroidStudioProjects\\UI\\app\\src\\main\\res\\drawable-xhdpi\\backgronud1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\xlwindlx\\Documents\\AndroidStudioProjects\\UI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\intro.jpg",
-        "source": "C:\\Users\\xlwindlx\\Documents\\AndroidStudioProjects\\UI\\app\\src\\main\\res\\drawable-xhdpi\\intro.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Renya\\Desktop\\SelfShot2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\backgronud1.jpg",
-        "source": "C:\\Users\\Renya\\Desktop\\SelfShot2\\app\\src\\main\\res\\drawable-xhdpi\\backgronud1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Renya\\Desktop\\SelfShot2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\intro.jpg",
-        "source": "C:\\Users\\Renya\\Desktop\\SelfShot2\\app\\src\\main\\res\\drawable-xhdpi\\intro.jpg"
+        "merged": "C:\\Users\\Renya\\Desktop\\SelfShot1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\backgronud1.jpg",
+        "source": "C:\\Users\\Renya\\Desktop\\SelfShot1\\app\\src\\main\\res\\drawable-xhdpi\\backgronud1.jpg"
     }
 ]
