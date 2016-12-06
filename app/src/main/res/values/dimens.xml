@@ -1,7 +1,13 @@
 <resources>
+<<<<<<< HEAD
 
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+=======
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+>>>>>>> 5626ddc0f2288504a9756b270f4f1a931922619a
 </resources>

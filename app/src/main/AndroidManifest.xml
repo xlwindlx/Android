@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.selfshot"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -35,6 +36,27 @@
         </activity>
         
         <activity android:name="IntroActivity" android:label="@string/app_name">
+=======
+    package="com.example.renya.myapplication_ui">
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.picture" android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+>>>>>>> 5626ddc0f2288504a9756b270f4f1a931922619a
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,6 +64,7 @@
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD
         <activity 
 	      android:name="com.example.selfshot.DeviceListActivity" 
 	      android:label="@string/select_device" 
@@ -58,3 +81,15 @@
     </application>
 
 </manifest>
+=======
+        <!-- 여기가 인텐트 추가하는 곳 -->
+        <activity android:name=".StartActivity"/>
+        <activity android:name=".VideoListActivity"/>
+        <activity android:name=".ImageListActivity"/>
+
+    </application>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+</manifest>
+>>>>>>> 5626ddc0f2288504a9756b270f4f1a931922619a
