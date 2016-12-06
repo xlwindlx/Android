@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/remoteview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff000000" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:orientation="vertical" >
+
+	    <ImageView
+	        android:id="@+id/inPhoto"
+	        android:layout_width="match_parent"
+	        android:layout_height="200dp"
+	        android:adjustViewBounds="true"
+	        android:background="#FFFFFFFF"
+	        android:scaleType="fitCenter" />
+
+	    <!-- <Button
+	        android:id="@+id/recvpicture"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="사진받기" /> --> 
+
+	    <!-- <TextView
+	        android:id="@+id/textLog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="LOG"
+	        android:textAlignment="gravity"
+	        android:textColor="#FFFFFFFF" /> -->
+
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.78" >
+
+	        <Button
+	            android:id="@+id/motorconnect"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/connect_selector" />
+
+			<Button
+	            android:id="@+id/motorconnected"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:background="@drawable/connected_selector" />
+
+	    </RelativeLayout>
+
+	</LinearLayout>
+	
+  <LinearLayout 
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:gravity="center">
+  
+  	<Button
+            android:id="@+id/shineplusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/brightness_selector" />
+  	
+  	<Button
+            android:id="@+id/remotezoomplusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/zoom_in_selector" />
+  </LinearLayout>
+	
+  <LinearLayout 
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp" 
+	    android:gravity="center">
+  
+  	<Button
+            android:id="@+id/shineminusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/darkness_selector" />
+  	
+  	<Button
+            android:id="@+id/remotezoomminusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/zoom_out_selector" />
+  </LinearLayout>
+
+	<LinearLayout 
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_margin="10dp"
+	    android:gravity="center">
+  
+  	<Button
+            android:id="@+id/remoteshutterbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shutter_selector" />
+  </LinearLayout>
+</LinearLayout>

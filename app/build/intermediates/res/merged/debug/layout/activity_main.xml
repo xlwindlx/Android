@@ -1,0 +1,109 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:drawingCacheQuality="high" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    
+	    <FrameLayout       
+	        android:id="@+id/container"
+	        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_centerInParent="true">
+	        
+	    </FrameLayout>
+
+	    <FrameLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true">
+	        
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_gravity="center|right">
+	            
+	            <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:orientation="vertical">
+		            
+	                <ImageButton
+			            android:id="@+id/brightplus"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="10dp"
+			            android:background="@drawable/brightness_selector" />
+		            
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal">
+	                
+	                <ImageButton
+			            android:id="@+id/img_zoomplus_btn"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="10dp"
+			            android:background="@drawable/zoom_in_selector" />
+
+					<ImageButton
+			            android:id="@+id/img_zoomminus_btn"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="10dp"
+			            android:background="@drawable/zoom_out_selector" />	                
+	                		            
+	            </LinearLayout>    
+	            		        
+	            <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:orientation="vertical">
+	                
+	                <ImageButton
+			            android:id="@+id/brightminus"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="10dp"
+			            android:background="@drawable/darkness_selector" />
+	                		            
+	            </LinearLayout>
+	             
+	        </LinearLayout>
+	        
+	         <ToggleButton
+	            android:id="@+id/front_rear_btn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="bottom|right"
+	            android:background="@drawable/front_selector"
+	            android:textOn=""
+	            android:textOff="" />
+	         
+	        <ImageButton
+	            android:id="@+id/blueconnect"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="top|right"
+	            android:background="@drawable/bluetooth_selector" />
+	        
+	    </FrameLayout>
+	    
+	    
+	    
+    </RelativeLayout>
+	    
+</LinearLayout> 
+
